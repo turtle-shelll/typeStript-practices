@@ -1,0 +1,19 @@
+{
+  "name": "practice_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "nodemon ./dist/Day_1.js",
+    "dev2": "nodemon ./dist/Day_2.js",
+    "dev3": "nodemon ./dist/Day_3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "nodemon": "^3.1.10"
+  }
+}

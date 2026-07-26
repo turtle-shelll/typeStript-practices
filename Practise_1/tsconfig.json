@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Where to output compiled JavaScript files */
+    "outDir": "./dist",
+    /* Root folder for your TypeScript source files */
+    "rootDir": "./",
+    /* Target JavaScript version */
+    "target": "ES6",
+    /* Module system (for Node.js use 'commonjs', for browser use 'ES6' or 'esnext') */
+    "module": "commonjs",
+    /* Include source maps for debugging TypeScript in browser/Node */
+    "sourceMap": true,
+    /* Remove all comments in the output JavaScript */
+    "removeComments": true,
+    /* Enable all strict type-checking options */
+    "strict": true,
+    /* Enable additional strict checks for null and undefined */
+    "strictNullChecks": true,
+    /* Allow default imports from modules with no default export */
+    "esModuleInterop": true,
+    /* Specify library files for the project (DOM, ES6, etc.) */
+    "lib": [
+      // "ES6",
+      "ESNext"
+      // "DOM"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    /* Don't emit output if there are errors */
+    "noEmitOnError": true
+  },
+  // "include": [
+  //   "src"
+  // ], // Only compile files in src folder
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Exclude folders from compilation
+}
